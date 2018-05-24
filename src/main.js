@@ -14,7 +14,7 @@ Vue.config.productionTip = false
 // })
 /* eslint-disable */
 
-new Vue({                   // 新建一个vue对象
+new Vue({                   // 新建
   el : '#app',              // 对象调用标签名 #app
   components: { Todolist }, // 在该页面，激活Todolist这个模块
   template: '<Todolist />'  // 模板名 Todolist
